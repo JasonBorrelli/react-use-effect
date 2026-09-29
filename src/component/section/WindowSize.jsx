@@ -31,8 +31,8 @@ export default function WindowSize() {
     }, []);
 
     return (
-        <section className="container mx-auto text-center bg-amber-200 m-5">
-            <p>Sei in modalità {handleWidth()}({width}px)</p>
+        <section className="container mx-auto  text-center bg-info w-25 rounded-4 fw-bold">
+            <p>Sei in modalità {handleWidth()}</p>
         </section>
     );
-}   
+}    
