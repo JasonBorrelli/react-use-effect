@@ -12,14 +12,14 @@ export default function NotePad() {
     }
 
     return(
-        <>
-        <textarea placeholder="Scrivi una nota..." 
-            value={text}
-            onChange={handleTextAreaChange}
-            rows="30" 
-            cols="60">
-        </textarea>      
-        <p>Conteggio caratteri: {text.length}</p>  
-        </>
+        <section className="container text-center">
+            <textarea placeholder="Scrivi una nota..." 
+                value={text}
+                onChange={handleTextAreaChange}
+                rows="30" 
+                cols="60">
+            </textarea>      
+            <p>Conteggio caratteri: {text.length}</p>  
+        </section>  
     );
 }
